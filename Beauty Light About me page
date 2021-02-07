@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Agency FB, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #19949a;
+  color: #ff8b28;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 80px;
+}
+.header h2 {
+font-size: 27px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BEAUTY LIGHT</h1>
+  <h2>Look good, Every time.</h2>
+</div>
+
+<div class="navbar">
+  <a href="https://6.ugahacks.com">U G A</a>
+  <a href="https://codepen.io/goutham3507/pen/xxRVLox" class="right">H O M E</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2><u>About The Creators</u></h2>
+    <img src="https://i.imgur.com/61FEg2W.jpg"  alt="Arhum" width="200" height="200">
+    <p><b><u>(HTML) Developer:</u></b></p>
+    <p> My name is Arhum Khan, I go to Georgia State Univeristy, I am a Computer Sceince major, and a hobby of mine is basketball.</p>
+    <img src="https://i.imgur.com/wX1LyUe.jpg" alt="Goutham" width="200" height="200">
+    <p><b><u>(HTML/CSS/JS) Developer:</u></b></p> 
+    <p>My name is Goutham Ganapathiappan. I am a freshman at Georgia State University and my major is Computer Science, and fun fact about me is I love read comics like Batman and play soccer.</p>
+    <img src="https://i.imgur.com/16JEWUW.jpg" alt="Bob" width="200" height="270">
+    <p><b><u>Designer:</u></b></p> 
+    <p> My name is Bob, I attend the Univeristy of Georgia, my major is Environmental Engineering, and a fun fact about me is that I am double jointed in my fingers.</p>
+    <img src="https://i.imgur.com/9oBLElN.jpg" alt="Nikita" width="200" height="250">
+    <p><b><u>Project Leader:</u></b></p> 
+    <p> My name is Nikita Kondla, Georgia State University. Fun fact - I played clarinet in concert band for 7 1/2 years.</p>
+    
+  <div class="main">
+    <h2><u>About the App</u></h2>
+    <p>Feel like your selfies aren't good enough? Feel like you can't find the perfect amount of lighting for your app? Say hello to Beauty Light. Beatuy Light is an app which detects the lighting of the enivronment you are in, and based on that, it will adjust the best amount of lighting for you to take your selfies! Say goodbye to bad selfies, and hello to ones you'll love!</p>
+    <br>
+    
+<div class="footer">
+  <h2>When it is bright: </h2>
+  <img src="https://i.imgur.com/6bfEsNy.png" alt="Flowers in Chania" width="200" height="345">
+  
+    
+  <h2>When it is dim: </h2>
+  <img src="https://i.imgur.com/tyc09hr.png" alt="Flowers in Chania" width="200" height="345">
+</div>
+
+</body>
+</html>
